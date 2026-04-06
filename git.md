@@ -158,3 +158,198 @@ Para usar Git con ese tutorial:
 Si quieres, puedo guiarte exactamente paso a paso con **ese tutorial específico (Step 1 → Step 10)** y decirte qué comandos Git usar en cada uno 👍
 
 [1]: https://github.com/SAP-samples/ui5-typescript-walkthrough?utm_source=chatgpt.com "GitHub - SAP-samples/ui5-typescript-walkthrough: A walkthrough tutorial that introduces all major development paradigms of OpenUI5 using TypeScript with OpenUI5."
+
+Perfecto — te guío paso a paso usando el walkthrough oficial de OpenUI5 SDK y te indico **exactamente qué hacer con Git en cada step** 👇
+
+---
+
+# 🧭 Preparación inicial (antes del Step 1)
+
+### 1. Crear proyecto UI5
+
+Siguiendo el tutorial, tendrás tu carpeta del proyecto.
+
+Entra a ella:
+
+```bash
+cd my-ui5-app
+```
+
+### 2. Inicializar Git
+
+```bash
+git init
+```
+
+### 3. Crear `.gitignore`
+
+```bash
+echo "node_modules/" >> .gitignore
+echo "dist/" >> .gitignore
+```
+
+### 4. Primer commit
+
+```bash
+git add .
+git commit -m "Step 0: Project setup"
+```
+
+---
+
+# 🧱 Step 1 – Hello World
+
+Aquí creas la primera vista básica.
+
+👉 Cuando ya funcione en el navegador:
+
+```bash
+git add .
+git commit -m "Step 1: Hello World view"
+```
+
+---
+
+# 🧱 Step 2 – Crear controlador
+
+Agregas el controller JS.
+
+```bash
+git add .
+git commit -m "Step 2: Add controller"
+```
+
+---
+
+# 🧱 Step 3 – Data Binding
+
+Aquí conectas datos a la vista.
+
+```bash
+git add .
+git commit -m "Step 3: Data binding"
+```
+
+---
+
+# 🧱 Step 4 – Modelo JSON
+
+Introduces un modelo de datos.
+
+```bash
+git add .
+git commit -m "Step 4: JSON model"
+```
+
+---
+
+# 🧱 Step 5 – Expresiones
+
+Binding más avanzado.
+
+```bash
+git add .
+git commit -m "Step 5: Expression binding"
+```
+
+---
+
+# 🧱 Step 6 – Listas
+
+Creas listas dinámicas.
+
+```bash
+git add .
+git commit -m "Step 6: List binding"
+```
+
+---
+
+# 🧱 Step 7 – Routing / Navegación
+
+Empiezas a tener múltiples vistas.
+
+```bash
+git add .
+git commit -m "Step 7: Routing and navigation"
+```
+
+---
+
+# 🧱 Step 8 – Component.js
+
+Estructura más profesional.
+
+```bash
+git add .
+git commit -m "Step 8: Component configuration"
+```
+
+---
+
+# 🧱 Step 9 – Despliegue básico
+
+Preparación para build.
+
+```bash
+git add .
+git commit -m "Step 9: Build setup"
+```
+
+---
+
+# 🧱 Step 10 – Refinamientos
+
+Mejoras finales.
+
+```bash
+git add .
+git commit -m "Step 10: Final improvements"
+```
+
+---
+
+# 🌿 EXTRA: Ver historial
+
+Puedes ver todo tu progreso:
+
+```bash
+git log --oneline
+```
+
+---
+
+# 🔄 EXTRA: Volver a un step anterior
+
+Ejemplo: volver al Step 3
+
+```bash
+git checkout <hash-del-commit>
+```
+
+---
+
+# ☁️ EXTRA: Subir a GitHub
+
+Cuando ya tengas varios pasos:
+
+```bash
+git remote add origin https://github.com/tu-usuario/ui5-app.git
+git push -u origin main
+```
+
+---
+
+# 🧠 Consejo clave (esto es lo que realmente importa)
+
+Este tutorial es perfecto para aprender Git porque:
+
+* Cada step = 1 commit
+* Puedes comparar cambios fácilmente
+* Puedes experimentar sin miedo
+
+---
+
+Si quieres, en el siguiente paso puedo darte:
+✅ un repositorio ejemplo listo
+✅ o ayudarte a resolver errores típicos de UI5 + Git (muy comunes al inicio)
